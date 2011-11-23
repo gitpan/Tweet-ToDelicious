@@ -9,13 +9,12 @@ use AnyEvent;
 use AnyEvent::Twitter::Stream;
 use AnyEvent::HTTP;
 use Coro;
-use Coro::EV;
 use Coro::LWP;
 use Coro::AnyEvent;
 use Log::Minimal;
 use Tweet::ToDelicious::Entity;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 sub new {
     my $class = shift;

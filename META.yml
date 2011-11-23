@@ -19,9 +19,9 @@ no_index:
     - inc
 requires:
   AnyEvent::Twitter::Stream: 0.22
+  Class::Accessor::Lite: 0.05
   Config::Any: 0.23
   Coro: 6.06
-  EV: 4.03
   LWP::Protocol::https: 6.02
   List::MoreUtils: 0.33
   Log::Minimal: 0.09
@@ -29,4 +29,4 @@ requires:
   Net::OAuth: 0.27
   Net::SSLeay: 1.42
   YAML::XS: 0.37
-version: 0.06
+version: 0.07

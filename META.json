@@ -33,9 +33,9 @@
       "runtime" : {
          "requires" : {
             "AnyEvent::Twitter::Stream" : "0.22",
+            "Class::Accessor::Lite" : "0.05",
             "Config::Any" : "0.23",
             "Coro" : "6.06",
-            "EV" : "4.03",
             "LWP::Protocol::https" : "6.02",
             "List::MoreUtils" : "0.33",
             "Log::Minimal" : "0.09",
@@ -47,5 +47,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.06"
+   "version" : "0.07"
 }
