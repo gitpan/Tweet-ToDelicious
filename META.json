@@ -42,10 +42,11 @@
             "Net::Delicious" : "1.14",
             "Net::OAuth" : "0.27",
             "Net::SSLeay" : "1.42",
+            "Sub::Retry" : "0.04",
             "YAML::XS" : "0.37"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.07"
+   "version" : "0.08"
 }
